@@ -11,6 +11,14 @@ add_library( rfd900
     message900.cpp
 )
 
+add_library( messagesim
+  SHARED
+    simulation_constants.h
+    simulation_constants.cpp
+    sim_artifact_message.h
+    sim_artifact_message.cpp
+)
+
 add_executable(txsimple simple_tx.cpp)
 add_executable(rxsimple simple_rx.cpp)
 
