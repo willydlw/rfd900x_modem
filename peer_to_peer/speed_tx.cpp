@@ -143,9 +143,9 @@ int main(int argc, char **argv)
         
          ++txcount;
         // print every so often to inform user of progress
-        if( (txcount % 25) == 0){
+        //if( (txcount % 25) == 0){
             fprintf(stdout, "sending message number %d\n", txcount);
-        }
+        //}
         
         end = std::chrono::steady_clock::now();
         diff = end - start;
