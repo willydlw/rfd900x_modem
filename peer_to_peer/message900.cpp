@@ -3,7 +3,7 @@
 #include <cstdlib>                  // malloc, free
 #include "message900.h"
 
-namespace marblecomm{
+namespace rfd900comm{
 
     message900::message900()
     {

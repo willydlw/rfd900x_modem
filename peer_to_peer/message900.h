@@ -8,7 +8,7 @@
 #include <string>
 
 
-namespace marblecomm{
+namespace rfd900comm{
 
      struct message900_t{
         //timestamp_t tx_time;                // time message was transmitted
@@ -39,7 +39,7 @@ namespace marblecomm{
         private:
 
         // list to store transmitted messages
-        std::list<marblecomm::message900_t> ack_wait_list;
+        std::list<message900_t> ack_wait_list;
 
         void empty_ack_wait_list();
         void get_timestamp(uint64_t* sec, uint64_t* nsec);

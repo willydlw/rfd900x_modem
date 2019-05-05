@@ -21,6 +21,10 @@ add_library( messagesim
 
 add_executable(txsimple simple_tx.cpp)
 add_executable(rxsimple simple_rx.cpp)
+add_executable(txspeed speed_tx.cpp)
+add_executable(rxspeed speed_rx.cpp)
 
 target_link_libraries(txsimple rfd900)
 target_link_libraries(rxsimple rfd900)
+target_link_libraries(txspeed rfd900 messagesim)
+target_link_libraries(rxspeed rfd900 messagesim)
