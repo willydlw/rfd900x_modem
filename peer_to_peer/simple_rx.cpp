@@ -18,7 +18,7 @@
 #include <sstream>
 #include <unistd.h>             // sleep
 
-#include <rfd900/rfd900_modem.h>
+#include "rfd900_modem.h"
 
 
 constexpr int LOOP_ITERATIONS = 10;

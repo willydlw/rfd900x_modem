@@ -17,7 +17,7 @@
 #include <sstream>
 #include <unistd.h>             // sleep
 
-#include <rfd900/rfd900_modem.h>
+#include "rfd900_modem.h"
 
 
 int main(int argc, char **argv)
