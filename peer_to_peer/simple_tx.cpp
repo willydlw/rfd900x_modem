@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 {
     std::string serialDevicePath;
     int baudRate = 57600;
-    marblecomm::rfd900Modem radio;
+    rfd900comm::rfd900Modem radio;
 
     int count = 0;
 

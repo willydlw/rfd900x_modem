@@ -23,7 +23,7 @@
 #include <string>           // std::string
 
 
-namespace marblecomm{
+namespace rfd900comm{
     class rfd900Modem{
 
         public:

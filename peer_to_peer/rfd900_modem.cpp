@@ -26,7 +26,7 @@
 
 #include "rfd900_modem.h"
 
-namespace marblecomm{
+namespace rfd900comm{
 
     /**
      * \fn rfd900Modem(const char* devicePath)
